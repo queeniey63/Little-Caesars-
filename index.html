@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#fff8f1 !important;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Claim Your $100 Little Caesars Gift Card Reward</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Anton&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background-color: #fff8f1 !important; color-scheme: light !important; }
+
+  body {
+    background-color: #fff8f1 !important;
+    font-family: 'Inter', sans-serif;
+    color: #2a1a10;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page { width: 100%; max-width: 480px; padding: 0 18px 40px; background: #fff8f1; position: relative; overflow: hidden; }
+
+  /* floating pizza decor */
+  .float { position: absolute; font-size: 26px; opacity: 0.16; pointer-events: none; user-select: none; }
+  .f1 { top: 360px; left: -6px; transform: rotate(-18deg); }
+  .f2 { top: 640px; right: -4px; transform: rotate(14deg); font-size: 32px; }
+  .f3 { top: 980px; left: 4px; transform: rotate(10deg); }
+
+  /* ── TOP BAR ── */
+  .topbar { display: flex; align-items: center; justify-content: space-between; padding: 22px 2px 16px; position: relative; z-index: 2; }
+  .logo { display: flex; align-items: center; gap: 8px; }
+  .logo-badge {
+    width: 34px; height: 34px; border-radius: 9px; background: #f26a1b;
+    display: flex; align-items: center; justify-content: center; font-size: 19px;
+  }
+  .logo-text { font-family: 'Anton','Inter',sans-serif; font-size: 22px; color: #f26a1b; letter-spacing: 0.02em; text-transform: uppercase; }
+
+  .pill {
+    font-size: 10px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase;
+    color: #f26a1b; border: 1.5px solid #f26a1b; border-radius: 99px; padding: 6px 12px; background: #fff;
+  }
+
+  /* ── OFFER VISUAL ── */
+  .visual {
+    position: relative; overflow: hidden; border-radius: 22px;
+    background: linear-gradient(135deg, #f26a1b 0%, #ff8a2a 55%, #ffb347 100%);
+    padding: 26px 22px; min-height: 220px;
+    display: flex; align-items: center;
+    box-shadow: 0 16px 40px rgba(242,106,27,0.38);
+    z-index: 2;
+  }
+  .visual::before {
+    content: ''; position: absolute; left: -60px; bottom: -80px; width: 240px; height: 240px;
+    border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.22), transparent 70%);
+  }
+  .v-text { position: relative; z-index: 2; }
+  .v-brand { font-family: 'Anton','Inter',sans-serif; font-size: 30px; line-height: 1.05; color: #1a0f08; letter-spacing: 0.02em; text-transform: uppercase; }
+  .v-amount { font-family: 'Anton','Inter',sans-serif; font-size: 78px; line-height: 1.05; color: #ffffff; margin-top: 4px; text-shadow: 0 3px 0 rgba(160,60,0,0.35); }
+  .v-label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(26,15,8,0.7); font-weight: 800; margin-top: 4px; }
+
+  .v-pizza { position: absolute; right: -26px; top: 50%; transform: translateY(-50%) rotate(8deg); width: 58%; max-width: 250px; z-index: 1; filter: drop-shadow(0 10px 14px rgba(120,40,0,0.35)); }
+  .v-pizza svg { width: 100%; height: auto; display: block; }
+
+  /* ── HEADLINE ── */
+  .headline { text-align: center; padding: 26px 6px 4px; position: relative; z-index: 2; }
+  .headline h1 { font-size: 27px; font-weight: 900; line-height: 1.2; letter-spacing: -0.5px; color: #2a1a10; }
+  .headline h1 span { color: #f26a1b; }
+  .headline p { font-size: 14px; line-height: 1.6; color: #7a6354; margin-top: 10px; }
+
+  /* ── STEPS ── */
+  .steps-title { text-align: center; font-size: 11px; font-weight: 800; letter-spacing: 0.22em; text-transform: uppercase; color: #b79a86; margin: 28px 0 14px; position: relative; z-index: 2; }
+  .steps { display: flex; flex-direction: column; gap: 11px; position: relative; z-index: 2; }
+  .step {
+    background: #fff; border-radius: 16px; padding: 15px 16px;
+    display: flex; align-items: center; gap: 14px;
+    box-shadow: 0 3px 12px rgba(120,60,20,0.07); border: 1px solid #f6e3d3;
+  }
+  .step-num {
+    width: 36px; height: 36px; border-radius: 50%; background: #f26a1b; color: #fff;
+    font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .step-body { flex: 1; }
+  .step-body h3 { font-size: 14.5px; font-weight: 800; color: #2a1a10; margin-bottom: 2px; }
+  .step-body p { font-size: 12.5px; color: #8a7262; line-height: 1.45; }
+  .tick {
+    width: 22px; height: 22px; border-radius: 50%; background: #e5f6e9; color: #1f9d4a;
+    font-size: 13px; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+
+  /* ── CTA ── */
+  .cta-btn {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    width: 100%; padding: 19px; margin-top: 26px;
+    background: #f26a1b; color: #fff; text-decoration: none; border-radius: 15px;
+    font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 800;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    box-shadow: 0 10px 26px rgba(242,106,27,0.45);
+    transition: background .2s, transform .1s; position: relative; z-index: 2;
+  }
+  .cta-btn:hover { background: #d95a10; transform: translateY(-1px); }
+  .cta-btn:active { transform: translateY(0); }
+
+  /* ── FAQ ── */
+  .faq-title { text-align: center; font-size: 20px; font-weight: 800; margin: 36px 0 14px; color: #2a1a10; position: relative; z-index: 2; }
+  .faq-list { background: #fff; border: 1.5px solid #f6e3d3; border-radius: 16px; overflow: hidden; position: relative; z-index: 2; }
+  .faq-item { border-bottom: 1px solid #faeee3; }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-q {
+    width: 100%; background: #fff; border: none; padding: 17px 18px;
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; color: #2a1a10; text-align: left; cursor: pointer;
+  }
+  .faq-q .chev { color: #f26a1b; font-size: 18px; transition: transform .25s; flex-shrink: 0; }
+  .faq-item.open .chev { transform: rotate(180deg); }
+  .faq-a {
+    max-height: 0; overflow: hidden; padding: 0 18px;
+    font-size: 13px; line-height: 1.65; color: #7d675a;
+    transition: max-height .3s ease, padding .3s ease;
+  }
+  .faq-item.open .faq-a { max-height: 220px; padding: 0 18px 16px; }
+
+  .disclaimer { text-align: center; font-size: 11px; line-height: 1.6; color: #b79a86; padding: 16px 16px 0; position: relative; z-index: 2; }
+
+  @media (prefers-color-scheme: dark) {
+    html, body, .page { background-color: #fff8f1 !important; color: #2a1a10 !important; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <span class="float f1">🍕</span>
+  <span class="float f2">🍕</span>
+  <span class="float f3">🍕</span>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="logo">
+      <div class="logo-badge">🍕</div>
+      <span class="logo-text">Little Caesars</span>
+    </div>
+    <div class="pill">Rewards Offer</div>
+  </div>
+
+  <!-- OFFER VISUAL -->
+  <div class="visual">
+    <div class="v-text">
+      <div class="v-brand">Little<br>Caesars</div>
+      <div class="v-amount">$100</div>
+      <div class="v-label">Gift Card Reward</div>
+    </div>
+    <div class="v-pizza">
+      <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- crust -->
+        <circle cx="110" cy="110" r="104" fill="#d9902f"/>
+        <circle cx="110" cy="110" r="104" fill="none" stroke="#b9711b" stroke-width="3"/>
+        <!-- sauce -->
+        <circle cx="110" cy="110" r="90" fill="#d63a1f"/>
+        <!-- cheese -->
+        <circle cx="110" cy="110" r="84" fill="#ffd45e"/>
+        <circle cx="86" cy="70" r="22" fill="#ffe08a" opacity="0.8"/>
+        <circle cx="150" cy="148" r="26" fill="#ffe08a" opacity="0.7"/>
+        <circle cx="74" cy="150" r="18" fill="#ffe08a" opacity="0.6"/>
+        <!-- slice lines -->
+        <g stroke="#e0a63a" stroke-width="2" opacity="0.75">
+          <line x1="110" y1="26" x2="110" y2="194"/>
+          <line x1="26" y1="110" x2="194" y2="110"/>
+          <line x1="50" y1="50" x2="170" y2="170"/>
+          <line x1="170" y1="50" x2="50" y2="170"/>
+        </g>
+        <!-- pepperoni -->
+        <g fill="#b3201a">
+          <circle cx="110" cy="56" r="14"/>
+          <circle cx="158" cy="86" r="14"/>
+          <circle cx="62" cy="88" r="14"/>
+          <circle cx="110" cy="112" r="15"/>
+          <circle cx="150" cy="148" r="14"/>
+          <circle cx="70" cy="144" r="14"/>
+          <circle cx="110" cy="166" r="13"/>
+        </g>
+        <g fill="#8e140f" opacity="0.7">
+          <circle cx="106" cy="52" r="3"/><circle cx="162" cy="82" r="3"/><circle cx="58" cy="84" r="3"/>
+          <circle cx="114" cy="108" r="3"/><circle cx="154" cy="144" r="3"/><circle cx="66" cy="140" r="3"/><circle cx="106" cy="162" r="3"/>
+        </g>
+        <!-- green pepper bits -->
+        <g fill="#4fa63a">
+          <rect x="84" y="86" width="9" height="4" rx="2" transform="rotate(30 84 86)"/>
+          <rect x="132" y="66" width="9" height="4" rx="2" transform="rotate(-20 132 66)"/>
+          <rect x="132" y="120" width="9" height="4" rx="2" transform="rotate(50 132 120)"/>
+          <rect x="88" y="124" width="9" height="4" rx="2" transform="rotate(-35 88 124)"/>
+          <rect x="120" y="140" width="9" height="4" rx="2" transform="rotate(10 120 140)"/>
+          <rect x="98" y="78" width="9" height="4" rx="2" transform="rotate(-50 98 78)"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <!-- HEADLINE -->
+  <section class="headline">
+    <h1>Your <span>$100 Little Caesars</span><br>reward is waiting 🍕</h1>
+    <p>Follow the simple steps below to review the reward details and check your eligibility.</p>
+  </section>
+
+  <!-- STEPS -->
+  <div class="steps-title">How It Works</div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body"><h3>Start here</h3><p>Tap the button below to get started.</p></div>
+      <div class="tick">✓</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body"><h3>Follow the instructions</h3><p>Submit your details and complete the required sponsored offers.</p></div>
+      <div class="tick">✓</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body"><h3>Continue to your reward</h3><p>Review the reward details and eligibility.</p></div>
+      <div class="tick">✓</div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <a href="https://giftclick.org/aff_c?offer_id=4335&aff_id=188450" target="_blank" rel="noopener" class="cta-btn">Get Started →</a>
+
+  <!-- FAQ -->
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Who can participate?<span class="chev">⌄</span></button>
+      <div class="faq-a">The program is open to residents who meet the eligibility requirements shown on the offer page. Eligibility is confirmed after you submit your details.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">What do I need to complete?<span class="chev">⌄</span></button>
+      <div class="faq-a">After you submit your details, you'll see a list of sponsored offers. Completing the required offers qualifies you for the reward.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Do the offers have any costs?<span class="chev">⌄</span></button>
+      <div class="faq-a">Some sponsored offers may require paid participation. Please read the terms of each offer carefully before you accept it.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Where can I use the gift card?<span class="chev">⌄</span></button>
+      <div class="faq-a">The gift card can be used toward eligible purchases at participating Little Caesars locations, subject to the card's terms.</div>
+    </div>
+  </div>
+
+  <p class="disclaimer">Reward availability and eligibility may vary. Review the applicable terms and conditions.</p>
+
+</div>
+
+<script>
+  function toggleFaq(btn) {
+    var item = btn.closest('.faq-item');
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(function(el){ el.classList.remove('open'); });
+    if (!isOpen) item.classList.add('open');
+  }
+</script>
+</body>
+</html>
